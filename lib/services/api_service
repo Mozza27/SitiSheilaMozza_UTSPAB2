@@ -1,6 +1,6 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
-import '../models/gempa_model.dart';
+import 'sitisheilamozza_utspab2/models/gempa_model.dart';
 
 class ApiService {
   static Future<Gempa> fetchGempa() async {
